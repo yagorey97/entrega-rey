@@ -1,4 +1,5 @@
 # 🟦 Foro CABJ – Club Atlético Boca Juniors
+[![Ver sitio](https://img.shields.io/badge/Ver%20sitio-en%20GitHub%20Pages-blue)](https://yagorey97.github.io/entrega-rey/)
 
 Este es un proyecto realizado como parte de la tercera entrega del curso de Desarrollo Web de **Coderhouse**. Se trata de un sitio web informativo e interactivo sobre el Club Atlético Boca Juniors, que incluye múltiples secciones, diseño responsive y un sistema funcional de carrito de compras para indumentaria oficial.
 
