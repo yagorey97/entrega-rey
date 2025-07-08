@@ -1,20 +1,52 @@
-# Entrega Rey- Foro Boca Juniors ⚽
+# 🟦 Foro CABJ – Club Atlético Boca Juniors
 
-Este proyecto forma parte de la entrega para el curso de Coderhouse, en este foro se podrá encontrar información, titulos plantel y mas del club atletico boca juniors
-
-🌐 **Sitio publicado en GitHub Pages**
-
-[Ver sitio online](https://yagorey97.github.io/entrega-rey/index.html)
+Este es un proyecto realizado como parte de la tercera entrega del curso de Desarrollo Web de **Coderhouse**. Se trata de un sitio web informativo e interactivo sobre el Club Atlético Boca Juniors, que incluye múltiples secciones, diseño responsive y un sistema funcional de carrito de compras para indumentaria oficial.
 
 ---
 
-## Contenido
+## 🌐 Contenido del sitio
 
-- index.html (página principal)
-- historia.html (historia del club)
-- plantel.html (jugadores actuales)
-- titulos.html (títulos y logros)
+El sitio está compuesto por varias páginas HTML interconectadas:
+
+- `index.html`: Página principal, bienvenida, sección de preguntas frecuentes (FAQ).
+- `historia.html`: Historia del club.
+- `titulos.html`: Palmarés de Boca Juniors.
+- `plantel.html`: Jugadores que participan del Mundial de Clubes 2025.
+- `indumentaria.html`: Sección de productos con precios y carrito de compras.
+- `carrito.html`: Página del carrito con detalle de productos agregados.
 
 ---
 
-¡Gracias por visitar el proyecto!
+## 💻 Tecnologías utilizadas
+
+- HTML5 con estructura semántica.
+- CSS3 y **SASS** (SCSS) para modularización de estilos.
+- **Bootstrap 5.3.3** para diseño responsive y componentes.
+- **JavaScript (ES6+)** para interactividad del carrito.
+- **LocalStorage** para persistencia de datos entre páginas.
+- Iconografía desde Flaticon y CDN externas.
+
+---
+
+## 🛍️ Funcionalidad del carrito de compras
+
+- Se pueden agregar productos desde `indumentaria.html`.
+- El ícono del carrito en el header se actualiza en tiempo real.
+- Botón "Vaciar carrito" para eliminar todos los productos.
+- Los productos y el total se guardan con `localStorage`.
+- Se visualizan en `carrito.html`, con su total.
+
+---
+
+## 📱 Responsive Design
+
+El sitio está diseñado para adaptarse correctamente a diferentes tamaños de pantalla, utilizando:
+
+- Bootstrap Grid y clases responsivas.
+- Media queries personalizadas en SASS.
+- Flexbox para secciones clave.
+
+---
+
+## 📁 Estructura del proyecto
+

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* Estilos mínimos personalizados */
+img {
+  margin-bottom: 1rem;
+}
+
+h1, h2 {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  padding: 2rem 0;
+  border-bottom: 1px solid #dee2e6;
+}
+
+/*# sourceMappingURL=main.css.map */

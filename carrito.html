@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de Compras</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <header class="bg-dark text-white p-3">
+    <div class="container d-flex justify-content-between align-items-center flex-column flex-md-row">
+      <div class="text-center text-md-start mb-3 mb-md-0">
+        <h1 class="m-0">Foro Club Atlético Boca Juniors</h1>
+      </div>
+      <div class="d-flex align-items-center flex-column flex-md-row">
+        <nav class="nav mb-2 mb-md-0 me-md-3">
+          <a class="nav-link text-white" href="index.html">Inicio</a>
+          <a class="nav-link text-white" href="historia.html">Historia</a>
+          <a class="nav-link text-white" href="titulos.html">Títulos</a>
+          <a class="nav-link text-white" href="plantel.html">Plantel</a>
+          <a class="nav-link text-white" href="indumentaria.html">Indumentaria</a>
+          <a class="nav-link text-white" href="carrito.html">Carrito</a>
+        </nav>
+        <div class="d-flex align-items-center">
+          <div class="position-relative me-2">
+            <img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" alt="Carrito" width="30" height="30" />
+            <span id="cart-count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">0</span>
+          </div>
+          <button id="vaciar-carrito" class="btn btn-warning text-dark btn-sm ms-3">Vaciar Carrito</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container my-5">
+    <h2 class="text-center mb-4">Tu Carrito de Compras</h2>
+
+    <div id="carrito-container" class="row g-4 justify-content-center">
+      <!-- Productos cargados por JS -->
+    </div>
+
+    <div class="text-center mt-4">
+      <h4>Total: <span id="carrito-total">$0</span></h4>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white text-center p-4 mt-5">
+    <p class="mb-2">&copy; 2025 Foro CABJ - Proyecto para Coderhouse</p>
+    <p class="mb-2">Seguinos en nuestras redes: <strong>@foroxeneize</strong></p>
+    <div>
+      <a href="https://instagram.com/foroxeneize" target="_blank" class="text-warning mx-2">
+        <i class="fab fa-instagram fa-lg"></i>
+      </a>
+      <a href="https://x.com/foroxeneize" target="_blank" class="text-warning mx-2">
+        <i class="fab fa-x-twitter fa-lg"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="js/carrito.js"></script>
+</body>
+</html>
