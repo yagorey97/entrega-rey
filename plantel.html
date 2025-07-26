@@ -4,14 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Plantel - Boca Juniors</title>
+  <meta name="description" content="Plantel del Club Atlético Boca Juniors 2025: conocé a los jugadores por posición, edades, nacionalidades y el cuerpo técnico completo.">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Header -->
-  <header class="bg-dark text-white p-3">
+<!-- Header -->
+<header class="bg-dark text-white p-3">
   <div class="container d-flex justify-content-between align-items-center flex-column flex-md-row">
     <div class="text-center text-md-start mb-3 mb-md-0">
       <h1 class="m-0">Foro Club Atlético Boca Juniors</h1>
@@ -26,210 +29,204 @@
         <a class="nav-link text-white" href="carrito.html">Carrito</a>
       </nav>
       <div class="d-flex align-items-center">
-  <div class="position-relative me-2">
-    <img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" alt="Carrito" width="30" height="30" />
-    <span id="cart-count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">0</span>
-  </div>
-  <button id="vaciar-carrito" class="btn btn-warning text-dark btn-sm ms-3">Vaciar Carrito</button>
-</div>
+        <div class="position-relative me-2">
+          <img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" alt="Carrito" width="30" height="30" />
+          <span id="cart-count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">0</span>
+        </div>
+        <button id="vaciar-carrito" class="btn btn-warning text-dark btn-sm ms-3">Vaciar Carrito</button>
+      </div>
     </div>
   </div>
 </header>
 
-  <main class="container my-5">
-    <h2 class="text-center mb-5">Plantel – Boca Juniors 2025</h2>
+<main class="container my-5">
+  <h2 class="text-center mb-5">Plantel – Boca Juniors 2025</h2>
 
-    <!-- ARQUEROS -->
-    <section class="mb-5">
-      <h3 class="mb-4">Arqueros</h3>
-      <div class="row">
-        <!-- Brey -->
-        <div class="col-md-3 mb-4">
-          <div class="card h-100 text-center">
-            <img src="img/brey-leandro.jpg" class="card-img-top" alt="Leandro Brey">
-            <div class="card-body">
-              <h5 class="card-title">Leandro Brey</h5>
-              <p class="card-text">Edad: 21<br>Posición: Arquero<br>Nacionalidad: Argentina</p>
-            </div>
-          </div>
-        </div>
-          <!-- Marchesin -->
-        <div class="col-md-3 mb-4">
-          <div class="card h-100 text-center">
-            <img src="img/marchesin-agustin.jpg" class="card-img-top" alt="Agustin Marchesin">
-            <div class="card-body">
-              <h5 class="card-title">Agustin Marchesin</h5>
-              <p class="card-text">Edad: 34<br>Posición: Arquero<br>Nacionalidad: Argentina</p>
-            </div>
-          </div>
-        </div>
-        <!-- Romero -->
-        <div class="col-md-3 mb-4">
-          <div class="card h-100 text-center">
-            <img src="img/romero-sergio.jpg" class="card-img-top" alt="Sergio Romero">
-            <div class="card-body">
-              <h5 class="card-title">Sergio Romero</h5>
-              <p class="card-text">Edad: 37<br>Posición: Arquero<br>Nacionalidad: Argentina</p>
-            </div>
+  <!-- ARQUEROS -->
+  <section class="mb-5">
+    <h3 class="mb-4">Arqueros</h3>
+    <div class="row">
+      <!-- Brey -->
+      <div class="col-md-3 mb-4" data-aos="fade-up">
+        <div class="card h-100 text-center">
+          <img src="img/brey-leandro.jpg" class="card-img-top" alt="Leandro Brey">
+          <div class="card-body">
+            <h5 class="card-title">Leandro Brey</h5>
+            <p class="card-text">Edad: 21<br>Posición: Arquero<br>Nacionalidad: Argentina</p>
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- DEFENSORES -->
-    <section class="mb-5">
-      <h3>Defensores</h3>
-      <div class="row">
-        <!-- Advíncula -->
-        <div class="col-md-3 mb-4">
-          <div class="card h-100 text-center">
-            <img src="img/advincula-luis.jpg" class="card-img-top" alt="Luis Advíncula">
-            <div class="card-body">
-              <h5 class="card-title">Luis Advíncula</h5>
-              <p class="card-text">Edad: 34<br>Posición: Defensor<br>Nacionalidad: Perú</p>
-            </div>
-          </div>
-        </div>
-        <!-- Rojo -->
-        <div class="col-md-3 mb-4">
-          <div class="card h-100 text-center">
-            <img src="img/rojo-marcos.jpg" class="card-img-top" alt="Marcos Rojo">
-            <div class="card-body">
-              <h5 class="card-title">Marcos Rojo</h5>
-              <p class="card-text">Edad: 34<br>Posición: Defensor<br>Nacionalidad: Argentina</p>
-            </div>
-          </div>
-        </div>
-        <!-- Figal -->
-        <div class="col-md-3 mb-4">
-          <div class="card h-100 text-center">
-            <img src="img/figal-nicolas.jpg" class="card-img-top" alt="Nicolás Figal">
-            <div class="card-body">
-              <h5 class="card-title">Nicolás Figal</h5>
-              <p class="card-text">Edad: 30<br>Posición: Defensor<br>Nacionalidad: Argentina</p>
-            </div>
-          </div>
-        </div>
-        <!-- Fabra -->
-        <div class="col-md-3 mb-4">
-          <div class="card h-100 text-center">
-            <img src="img/fabra-frank.jpg" class="card-img-top" alt="Frank Fabra">
-            <div class="card-body">
-              <h5 class="card-title">Frank Fabra</h5>
-              <p class="card-text">Edad: 33<br>Posición: Defensor<br>Nacionalidad: Colombia</p>
-            </div>
+      <!-- Marchesin -->
+      <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 text-center">
+          <img src="img/marchesin-agustin.jpg" class="card-img-top" alt="Agustin Marchesin">
+          <div class="card-body">
+            <h5 class="card-title">Agustin Marchesin</h5>
+            <p class="card-text">Edad: 34<br>Posición: Arquero<br>Nacionalidad: Argentina</p>
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- MEDIOCAMPISTAS -->
-    <section class="mb-5">
-      <h3>Mediocampistas</h3>
-      <div class="row">
-        <!-- Battaglia -->
-        <div class="col-md-3 mb-4">
-          <div class="card h-100 text-center">
-            <img src="img/battaglia-rodrigo.jpg" class="card-img-top" alt="Rodrigo Battaglia">
-            <div class="card-body">
-              <h5 class="card-title">Rodrigo Battaglia</h5>
-              <p class="card-text">Edad: 33<br>Posición: Mediocampista<br>Nacionalidad: Argentina</p>
-            </div>
-          </div>
-        </div>
-        <!-- Zenón -->
-        <div class="col-md-3 mb-4">
-          <div class="card h-100 text-center">
-            <img src="img/zenon-kevin.jpg" class="card-img-top" alt="Kevin Zenón">
-            <div class="card-body">
-              <h5 class="card-title">Kevin Zenón</h5>
-              <p class="card-text">Edad: 23<br>Posición: Mediocampista<br>Nacionalidad: Argentina</p>
-            </div>
-          </div>
-        </div>
-        <!-- Velasco -->
-        <div class="col-md-3 mb-4">
-          <div class="card h-100 text-center">
-            <img src="img/velasco-alan.jpg" class="card-img-top" alt="Alan Velasco">
-            <div class="card-body">
-              <h5 class="card-title">Alan Velasco</h5>
-              <p class="card-text">Edad: 21<br>Posición: Mediocampista<br>Nacionalidad: Argentina</p>
-            </div>
-          </div>
-        </div>
-        <!-- Delgado -->
-        <div class="col-md-3 mb-4">
-          <div class="card h-100 text-center">
-            <img src="img/delgado-milton.jpg" class="card-img-top" alt="Milton Delgado">
-            <div class="card-body">
-              <h5 class="card-title">Milton Delgado</h5>
-              <p class="card-text">Edad: 20<br>Posición: Mediocampista<br>Nacionalidad: Argentina</p>
-            </div>
+      <!-- Romero -->
+      <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="card h-100 text-center">
+          <img src="img/romero-sergio.jpg" class="card-img-top" alt="Sergio Romero">
+          <div class="card-body">
+            <h5 class="card-title">Sergio Romero</h5>
+            <p class="card-text">Edad: 37<br>Posición: Arquero<br>Nacionalidad: Argentina</p>
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- DELANTEROS -->
-    <section class="mb-5">
-      <h3>Delanteros</h3>
-      <div class="row">
-        <!-- Cavani -->
-        <div class="col-md-3 mb-4">
-          <div class="card h-100 text-center">
-            <img src="img/cavani-edinson.jpg" class="card-img-top" alt="Edinson Cavani">
-            <div class="card-body">
-              <h5 class="card-title">Edinson Cavani</h5>
-              <p class="card-text">Edad: 37<br>Posición: Delantero<br>Nacionalidad: Uruguay</p>
-            </div>
-          </div>
-        </div>
-          <!-- Merentiel -->
-        <div class="col-md-3 mb-4">
-          <div class="card h-100 text-center">
-            <img src="img/merentiel-miguel.jpg" class="card-img-top" alt="Miguel Merentiel">
-            <div class="card-body">
-              <h5 class="card-title">Miguel Merentiel</h5>
-              <p class="card-text">Edad: 28<br>Posición: Arquero<br>Nacionalidad: Uruguay</p>
-            </div>
-          </div>
-        </div>
-        <!-- Zeballos -->
-        <div class="col-md-3 mb-4">
-          <div class="card h-100 text-center">
-            <img src="img/zeballos-exequiel.jpg" class="card-img-top" alt="Exequiel Zeballos">
-            <div class="card-body">
-              <h5 class="card-title">Exequiel Zeballos</h5>
-              <p class="card-text">Edad: 22<br>Posición: Delantero<br>Nacionalidad: Argentina</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CUERPO TÉCNICO -->
-    <section class="mt-5">
-      <h3>Cuerpo Técnico</h3>
-      <p>Director Técnico: Miguel Angel Russo</p>
-      <p>Ayudante de Campo: Facundo Gareca</p>
-      <p>Preparador Físico: Alejandro Kohan</p>
-      <p>Entrenador de Arqueros: Fernando Gayoso</p>
-    </section>
-
-  </main>
-
-    <footer class="bg-dark text-white text-center p-4 mt-5">
-    <p class="mb-2">&copy; 2025 Foro CABJ - Proyecto para Coderhouse</p>
-    <p class="mb-2">Seguinos en nuestras redes: <strong>@foroxeneize</strong></p>
-    <div>
-      <a href="https://instagram.com/foroxeneize" target="_blank" class="text-warning mx-2">
-        <i class="fab fa-instagram fa-lg"></i>
-      </a>
-      <a href="https://x.com/foroxeneize" target="_blank" class="text-warning mx-2">
-        <i class="fab fa-x-twitter fa-lg"></i>
-      </a>
     </div>
-  </footer>
+  </section>
+
+  <!-- DEFENSORES -->
+  <section class="mb-5">
+    <h3>Defensores</h3>
+    <div class="row">
+      <div class="col-md-3 mb-4" data-aos="fade-right"><!-- Advíncula -->
+        <div class="card h-100 text-center">
+          <img src="img/advincula-luis.jpg" class="card-img-top" alt="Luis Advíncula">
+          <div class="card-body">
+            <h5 class="card-title">Luis Advíncula</h5>
+            <p class="card-text">Edad: 34<br>Posición: Defensor<br>Nacionalidad: Perú</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4" data-aos="fade-right" data-aos-delay="100"><!-- Rojo -->
+        <div class="card h-100 text-center">
+          <img src="img/rojo-marcos.jpg" class="card-img-top" alt="Marcos Rojo">
+          <div class="card-body">
+            <h5 class="card-title">Marcos Rojo</h5>
+            <p class="card-text">Edad: 34<br>Posición: Defensor<br>Nacionalidad: Argentina</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4" data-aos="fade-right" data-aos-delay="200"><!-- Figal -->
+        <div class="card h-100 text-center">
+          <img src="img/figal-nicolas.jpg" class="card-img-top" alt="Nicolás Figal">
+          <div class="card-body">
+            <h5 class="card-title">Nicolás Figal</h5>
+            <p class="card-text">Edad: 30<br>Posición: Defensor<br>Nacionalidad: Argentina</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4" data-aos="fade-right" data-aos-delay="300"><!-- Fabra -->
+        <div class="card h-100 text-center">
+          <img src="img/fabra-frank.jpg" class="card-img-top" alt="Frank Fabra">
+          <div class="card-body">
+            <h5 class="card-title">Frank Fabra</h5>
+            <p class="card-text">Edad: 33<br>Posición: Defensor<br>Nacionalidad: Colombia</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEDIOCAMPISTAS -->
+  <section class="mb-5">
+    <h3>Mediocampistas</h3>
+    <div class="row">
+      <div class="col-md-3 mb-4" data-aos="zoom-in"><!-- Battaglia -->
+        <div class="card h-100 text-center">
+          <img src="img/battaglia-rodrigo.jpg" class="card-img-top" alt="Rodrigo Battaglia">
+          <div class="card-body">
+            <h5 class="card-title">Rodrigo Battaglia</h5>
+            <p class="card-text">Edad: 33<br>Posición: Mediocampista<br>Nacionalidad: Argentina</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4" data-aos="zoom-in" data-aos-delay="100"><!-- Zenón -->
+        <div class="card h-100 text-center">
+          <img src="img/zenon-kevin.jpg" class="card-img-top" alt="Kevin Zenón">
+          <div class="card-body">
+            <h5 class="card-title">Kevin Zenón</h5>
+            <p class="card-text">Edad: 23<br>Posición: Mediocampista<br>Nacionalidad: Argentina</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4" data-aos="zoom-in" data-aos-delay="200"><!-- Velasco -->
+        <div class="card h-100 text-center">
+          <img src="img/velasco-alan.jpg" class="card-img-top" alt="Alan Velasco">
+          <div class="card-body">
+            <h5 class="card-title">Alan Velasco</h5>
+            <p class="card-text">Edad: 21<br>Posición: Mediocampista<br>Nacionalidad: Argentina</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4" data-aos="zoom-in" data-aos-delay="300"><!-- Delgado -->
+        <div class="card h-100 text-center">
+          <img src="img/delgado-milton.jpg" class="card-img-top" alt="Milton Delgado">
+          <div class="card-body">
+            <h5 class="card-title">Milton Delgado</h5>
+            <p class="card-text">Edad: 20<br>Posición: Mediocampista<br>Nacionalidad: Argentina</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DELANTEROS -->
+  <section class="mb-5">
+    <h3>Delanteros</h3>
+    <div class="row">
+      <div class="col-md-3 mb-4" data-aos="flip-up"><!-- Cavani -->
+        <div class="card h-100 text-center">
+          <img src="img/cavani-edinson.jpg" class="card-img-top" alt="Edinson Cavani">
+          <div class="card-body">
+            <h5 class="card-title">Edinson Cavani</h5>
+            <p class="card-text">Edad: 37<br>Posición: Delantero<br>Nacionalidad: Uruguay</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4" data-aos="flip-up" data-aos-delay="100"><!-- Merentiel -->
+        <div class="card h-100 text-center">
+          <img src="img/merentiel-miguel.jpg" class="card-img-top" alt="Miguel Merentiel">
+          <div class="card-body">
+            <h5 class="card-title">Miguel Merentiel</h5>
+            <p class="card-text">Edad: 28<br>Posición: Arquero<br>Nacionalidad: Uruguay</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4" data-aos="flip-up" data-aos-delay="200"><!-- Zeballos -->
+        <div class="card h-100 text-center">
+          <img src="img/zeballos-exequiel.jpg" class="card-img-top" alt="Exequiel Zeballos">
+          <div class="card-body">
+            <h5 class="card-title">Exequiel Zeballos</h5>
+            <p class="card-text">Edad: 22<br>Posición: Delantero<br>Nacionalidad: Argentina</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CUERPO TÉCNICO -->
+  <section class="mt-5" data-aos="fade-in">
+    <h3>Cuerpo Técnico</h3>
+    <p>Director Técnico: Miguel Angel Russo</p>
+    <p>Ayudante de Campo: Facundo Gareca</p>
+    <p>Preparador Físico: Alejandro Kohan</p>
+    <p>Entrenador de Arqueros: Fernando Gayoso</p>
+  </section>
+</main>
+
+<footer class="bg-dark text-white text-center p-4 mt-5">
+  <p class="mb-2">&copy; 2025 Foro CABJ - Proyecto para Coderhouse</p>
+  <p class="mb-2">Seguinos en nuestras redes: <strong>@foroxeneize</strong></p>
+  <div>
+    <a href="https://instagram.com/foroxeneize" target="_blank" class="text-warning mx-2">
+      <i class="fab fa-instagram fa-lg"></i>
+    </a>
+    <a href="https://x.com/foroxeneize" target="_blank" class="text-warning mx-2">
+      <i class="fab fa-x-twitter fa-lg"></i>
+    </a>
+  </div>
+</footer>
+
+<!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 <script src="js/carrito.js"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 # 🟦 Foro CABJ – Club Atlético Boca Juniors
 [![Ver sitio](https://img.shields.io/badge/Ver%20sitio-en%20GitHub%20Pages-blue)](https://yagorey97.github.io/entrega-rey/)
 
-Este es un proyecto realizado como parte de la tercera entrega del curso de Desarrollo Web de **Coderhouse**. Se trata de un sitio web informativo e interactivo sobre el Club Atlético Boca Juniors, que incluye múltiples secciones, diseño responsive y un sistema funcional de carrito de compras para indumentaria oficial.
+Este es un proyecto final del curso de Desarrollo Web de **Coderhouse**. Se trata de un sitio web informativo e interactivo sobre el Club Atlético Boca Juniors, que incluye múltiples secciones, diseño responsive y un sistema funcional de carrito de compras para indumentaria oficial.
 
 ---
 
@@ -20,22 +20,24 @@ El sitio está compuesto por varias páginas HTML interconectadas:
 
 ## 💻 Tecnologías utilizadas
 
-- HTML5 con estructura semántica.
-- CSS3 y **SASS** (SCSS) para modularización de estilos.
-- **Bootstrap 5.3.3** para diseño responsive y componentes.
-- **JavaScript (ES6+)** para interactividad del carrito.
-- **LocalStorage** para persistencia de datos entre páginas.
-- Iconografía desde Flaticon y CDN externas.
+- **HTML5** semántico
+- **SASS (SCSS)** con mixins, nesting, variables y media queries
+- **CSS3** con animaciones y transiciones
+- **Bootstrap 5.3.3**
+- **Font Awesome** para íconos
+- **JavaScript** para el carrito de compras
+- Responsive Design completo
+- Hosting en GitHub Pages
 
 ---
 
-## 🛍️ Funcionalidad del carrito de compras
+## ✨ Funcionalidades destacadas
 
-- Se pueden agregar productos desde `indumentaria.html`.
-- El ícono del carrito en el header se actualiza en tiempo real.
-- Botón "Vaciar carrito" para eliminar todos los productos.
-- Los productos y el total se guardan con `localStorage`.
-- Se visualizan en `carrito.html`, con su total.
+- Sitio responsive para mobile, tablet y desktop ✅
+- Carrito funcional con contador y botón para vaciarlo 🛒
+- Efectos visuales y animaciones suaves en botones y enlaces
+- Uso de variables de color y spacing con SASS
+- Código limpio, organizado y documentado
 
 ---
 

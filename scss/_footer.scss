@@ -1,0 +1,35 @@
+footer {
+  background-color: $text-color; // mismo color que el header
+  color: white;
+  text-align: center;
+  padding: $spacing-lg $spacing-md;
+  margin-top: $spacing-lg;
+
+  p {
+    margin-bottom: $spacing-sm;
+    font-size: 0.95rem;
+  }
+
+  strong {
+    color: $secondary-color;
+  }
+
+  a {
+    color: $secondary-color;
+    margin: 0 $spacing-sm;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+
+    &:hover {
+      transform: scale(1.2);
+      opacity: 0.8;
+    }
+  }
+
+  i {
+    font-size: 1.5rem;
+  }
+
+  @include responsive(mobile) {
+    padding: $spacing-md;
+  }
+}

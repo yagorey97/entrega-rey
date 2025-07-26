@@ -1,0 +1,62 @@
+header {
+  background-color: $text-color; // oscuro (puede ser #212529)
+  color: white;
+  padding: $spacing-md;
+
+  .container {
+    @include flex-center;
+    flex-direction: column;
+
+    @include responsive(tablet) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      margin: 0 0 $spacing-sm 0;
+      text-align: center;
+
+      @include responsive(tablet) {
+        text-align: left;
+        margin: 0;
+      }
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: $spacing-sm;
+
+      .nav-link {
+        color: white;
+        text-decoration: none;
+        position: relative;
+        padding: 0.25rem 0.5rem;
+        transition: all 0.3s ease;
+
+        &:hover {
+          color: $secondary-color;
+          text-shadow: 0 0 5px rgba(255, 204, 0, 0.6);
+        }
+      }
+    }
+
+    // Ícono de carrito
+    .position-relative img {
+      filter: brightness(0) invert(1);
+      transition: transform 0.3s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+
+    // Botón vaciar carrito
+    #vaciar-carrito {
+      @include responsive(mobile) {
+        margin-top: $spacing-sm;
+      }
+    }
+  }
+}

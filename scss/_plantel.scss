@@ -1,0 +1,36 @@
+.card-img-top {
+  transition: filter 0.3s ease;
+
+  &:hover {
+    filter: grayscale(100%) brightness(85%);
+  }
+}
+
+// Animación en tarjetas al pasar el mouse
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+}
+
+// Animación en botones (como "Vaciar carrito")
+button, .btn {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+// Íconos de redes sociales en el footer
+footer a i {
+  transition: color 0.3s ease, transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.2);
+    color: #ffc107;
+  }
+}

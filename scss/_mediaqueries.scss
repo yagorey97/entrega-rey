@@ -1,0 +1,67 @@
+// Ajustes para pantallas móviles
+@include responsive(mobile) {
+  header .container {
+    flex-direction: column;
+
+    h1 {
+      font-size: 1.3rem;
+      text-align: center;
+    }
+
+    nav {
+      flex-direction: column;
+      align-items: center;
+
+      .nav-link {
+        margin-bottom: $spacing-sm;
+      }
+    }
+
+    #vaciar-carrito {
+      margin-top: $spacing-sm;
+    }
+  }
+
+  footer {
+    padding: $spacing-md;
+
+    p {
+      font-size: 0.85rem;
+    }
+
+    i {
+      font-size: 1.2rem;
+    }
+  }
+
+  main {
+    padding: $spacing-md;
+
+    h2 {
+      font-size: 1.3rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+    }
+  }
+
+  .card-body {
+    h5 {
+      font-size: 1rem;
+    }
+
+    .btn {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+// Ajustes para pantallas tablet
+@include responsive(tablet) {
+  main {
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+}

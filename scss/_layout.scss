@@ -1,0 +1,45 @@
+body {
+  font-family: $font-main;
+  background-color: $background-color;
+  color: $text-color;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: $spacing-lg 0;
+
+  section {
+    margin-bottom: $spacing-lg;
+
+    h2 {
+      margin-bottom: $spacing-md;
+      color: $primary-color;
+    }
+
+    p {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto $spacing-md auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 $spacing-md;
+}
